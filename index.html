@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+
+    <body style="background-color: antiquewhite;" >
+        <center>
+        <h1 style="background-color: bisque;" >Multiply every Element in the array</h1>
+        <p id="result" style="background-color: bisque; font-family: 'Times New Roman', Times, serif; font-size: 30px;"></p>
+        <script>
+            var numbers = [4, 7, 2, 8];
+
+            function myFunction(num) {
+                return num * 5
+            }
+            var newarray = numbers.map(myFunction);
+            document.getElementById("result").innerHTML = newarray;
+        </script>
+        </center>
+    </body>
+</html>
